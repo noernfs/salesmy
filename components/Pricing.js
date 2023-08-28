@@ -7,6 +7,7 @@ import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Link from "next/link";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -70,7 +71,16 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     249rb
                   </p>
-                  <ButtonOutline>Pilih Paket</ButtonOutline>
+                  <ButtonOutline>
+                    <Link
+                      href="https://api.whatsapp.com/send?phone=6281314160043&text=Halo MyRepublic, saya mau bertanya tentang layanan yang tersedia. Terimakasih."
+                      className=""
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Selengkapnya
+                    </Link>
+                  </ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -111,7 +121,16 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     272rb
                   </p>
-                  <ButtonOutline>Pilih Paket</ButtonOutline>
+                  <ButtonOutline>
+                    <Link
+                      href="https://api.whatsapp.com/send?phone=6281314160043&text=Halo MyRepublic, saya mau bertanya tentang layanan yang tersedia. Terimakasih."
+                      className=""
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Selengkapnya
+                    </Link>
+                  </ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -153,7 +172,16 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     390rb
                   </p>
-                  <ButtonOutline>Pilih Paket</ButtonOutline>
+                  <ButtonOutline>
+                    <Link
+                      href="https://api.whatsapp.com/send?phone=6281314160043&text=Halo MyRepublic, saya mau bertanya tentang layanan yang tersedia. Terimakasih."
+                      className=""
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Selengkapnya
+                    </Link>
+                  </ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>

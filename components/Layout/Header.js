@@ -107,7 +107,16 @@ const Header = () => {
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             
-            <ButtonOutline>Konsultasi</ButtonOutline>
+            <ButtonOutline>
+              <Link
+                href="https://api.whatsapp.com/send?phone=6281314160043&text=Halo MyRepublic, saya mau bertanya tentang layanan yang tersedia. Terimakasih."
+                className=""
+                target="_blank"
+                rel="noopener"
+              >
+                Konsultasi
+              </Link>
+            </ButtonOutline>
           </div>
         </nav>
       </header>
