@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Link from "next/link";
 
 const Hero = ({
   listUser = [
@@ -42,7 +43,16 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
               MyRepublic hadir untuk menjadi aset kebanggaan bangsa Indonesia dengan memberikan solusi internet dengan pilihan harga terbaik yang didukung oleh komitmen kami dalam meningkatkan layanan jaringan untuk menghasilkan kualitas layanan internet juara.
               </p>
-              <ButtonPrimary>Hubungi Kami</ButtonPrimary>
+              <ButtonPrimary>
+                  <Link
+                      href="https://api.whatsapp.com/send?phone=6281314160043&text=Halo MyRepublic, saya mau bertanya tentang layanan yang tersedia. Terimakasih."
+                      className=""
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Hubungi Kami
+                    </Link>
+              </ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
