@@ -32,7 +32,7 @@ const Pricing = () => {
               Hubungi tenaga ahli kami untuk mendapatkan rekomendasi paket pilihan yang sesuai dengan kebutuhan anda.
             </motion.p>
           </ScrollAnimationWrapper>
-          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 lg:gap-12 py-8 lg:py-12 px-12 sm:px-0 lg:px-6">
+          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 lg:gap-12 py-8 lg:py-12 px-4 sm:px-0 lg:px-6">
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
@@ -77,7 +77,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-12 lg:px-12 xl:px-20"
+                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-4 lg:px-12 xl:px-20"
                 whileHover={{
                   scale : 1.1,
                   transition: {
@@ -119,7 +119,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-12 lg:px-12 xl:px-20"
+                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-4 lg:px-12 xl:px-20"
                 whileHover={{
                   scale : 1.1,
                   transition: {
@@ -164,11 +164,10 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
-              Huge Global Network of Fast VPN{" "}
+              Jaringan Internet Kelas Dunia{" "}
             </motion.h3>
             <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-              See LaslesVPN everywhere to make it easier for you when you move
-              locations.
+              Dengan Internet MyRepublic, anda dapat mengakses ribuan konten bisnis dan hiburan dalam negeri dan manca negara dengan leluasa.
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>

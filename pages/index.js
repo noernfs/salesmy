@@ -8,7 +8,7 @@ import Plus from "../components/Plus";
 export default function Home() {
   return (
     <>
-      <SeoHead title='LaslesVPN Landing Page' />
+      <SeoHead title='Promo Kemerdekaan MyRepublic - Internet Super Cepat dan Stabil' />
       <Layout>
         <Hero />
         <Plus />

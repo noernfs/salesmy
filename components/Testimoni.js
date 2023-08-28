@@ -10,7 +10,7 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
+      name: "",
       image: "/assets/people-3.png",
       city: "Warsaw",
       country: "Poland",
