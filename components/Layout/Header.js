@@ -48,7 +48,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 a")
               }
             >
-              About
+              Profil
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -66,7 +66,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Feature
+              Fitur
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -84,7 +84,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Pricing
+              Layanan
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -107,7 +107,7 @@ const Header = () => {
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             
-            <ButtonOutline>Sign Up</ButtonOutline>
+            <ButtonOutline>Konsultasi</ButtonOutline>
           </div>
         </nav>
       </header>
