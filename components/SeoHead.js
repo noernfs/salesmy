@@ -4,18 +4,18 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'LaslesVPN',
-  siteName: 'LaslesVPN',
+  title: 'MyRepublic - Internet Super Cepat dan Stabil',
+  siteName: 'MyRepublic',
   description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+    'MyRepublic, Solusi kebutuhan wifi Internet bisnis dan rumahan mulai dari 249rb dengan kecepatan hingga 250 Mbps.',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://myrepublic.web.id',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
-  author: 'Lorem Ipsum'
+  image: 'https://myrepublic.web.id/assets/mylogo.png',
+  author: 'MyRepublic Indonesia'
 };
 
 /**
