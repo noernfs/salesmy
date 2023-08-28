@@ -97,7 +97,7 @@ const Pricing = () => {
               >
                 <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                   <Image
-                    src="/new1.webp"
+                    src="/new3.webp"
                     width={145}
                     height={145}
                     alt="Free Plan"
@@ -148,7 +148,7 @@ const Pricing = () => {
               >
                 <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                   <Image
-                    src="/new1.webp"
+                    src="/new2.webp"
                     width={145}
                     height={145}
                     alt="Free Plan"
