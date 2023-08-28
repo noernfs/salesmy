@@ -10,40 +10,40 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "",
+      name: "Calvin Gedeon",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Depok",
+      country: "Jawa Barat",
+      rating: "4.9",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Lumayan bagus buat aktivitas wfh kantor. Dipake buat zoom lancar dan buat nonton film juga ngga buffering. Cuma kalo bisa pas pemasangan teknisinya jangan terlalu malem lah",
     },
     {
-      name: "iezh Robert",
+      name: "Kery Mugiaji",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Jakarta Timur",
+      country: "DKI Jakarta",
+      rating: "5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Bisa dibilang, tarif internetan MyRepublic merupakan salah satu yang paling hemat. (katanya sih). Dan setelah gue buktikan, memang cukup terjangkau kalo dibandingkan dengan ISP lainnya.",
     },
     {
-      name: "iezh Robert",
+      name: "Puspa Sinaga",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Bekasi",
+      country: "Jawa Barat",
+      rating: "4.8",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Sebelumnya belum pernah pasang wifi si cuma dapet rekomendasi dari temen yang udah pake juga. Lumayan juga daripada beli kuota",
     },
     {
-      name: "iezh Robert",
+      name: "Iman Nurjaman",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Bogor",
+      country: "Jawa Barat",
+      rating: "4.6",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Dibandingkan harga normal promonya bolehlah. Untuk pemasangan juga tergolong cepet, hari ini daftar besok udah bisa terpasang",
     },
   ],
 }) => {

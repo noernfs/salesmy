@@ -28,7 +28,7 @@ const Header = () => {
               src="/assets/myrep.png"
               width={180}
               height={55}
-              alt="Picture of the author"
+              alt="Logo MyRepublic"
             />
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
