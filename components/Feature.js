@@ -8,6 +8,7 @@ const features = [
   "100% Jaringan Fiber Optik",
   "Perangkat Router PRO",
   "Internet True Unlimited tanpa FUP",
+  "Stabilisasi Costum Routing",
 ]
 
 const Feature = () => {
