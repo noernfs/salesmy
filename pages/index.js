@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11316733016" />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11318190346" />
       <Script id="google-analytics">
         {
           `
@@ -18,7 +18,7 @@ export default function Home() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
-            gtag('config', 'AW-11316733016');
+            gtag('config', 'AW-11318190346');
           `
         }
         

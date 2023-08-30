@@ -206,30 +206,35 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.div className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap" variants={scrollAnimation}>
               {/* <Netflix className="h-18 w-auto" /> */}
-              <img
-                src="/assets/Icon/amazon.png"
-                className="h-14 w-auto mt-4 lg:mt-2"
-                alt=""
+              <Image
+                    src="/amazon.png"
+                    width={189}
+                    height={64}
+                    alt="Channel Hiburan MyRepublic"
               />
-              <img
-                src="/assets/Icon/netflix.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
+              <Image
+                    src="/netflix.png"
+                    width={189}
+                    height={64}
+                    alt="Channel Hiburan MyRepublic"
               />
-              <img
-                src="/assets/Icon/reddit.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
+              <Image
+                    src="/reddit.png"
+                    width={189}
+                    height={64}
+                    alt="Channel Hiburan MyRepublic"
               />
-              <img
-                src="/assets/Icon/discord.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
+              <Image
+                    src="/discord.png"
+                    width={189}
+                    height={64}
+                    alt="Channel Hiburan MyRepublic"
               />
-              <img
-                src="/assets/Icon/spotify.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
+              <Image
+                    src="/spotify.png"
+                    width={189}
+                    height={64}
+                    alt="Channel Hiburan MyRepublic"
               />
             </motion.div>
           </ScrollAnimationWrapper>
